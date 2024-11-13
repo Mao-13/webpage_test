@@ -1,7 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
 div {
     border: 3px solid;
 }
 
+.first_section {
+    background-color: rgb(27, 35, 50);
+    color: white;
+}
+
 .night_img {
-    width: 50%;
+    width: 25vh;
+    height: 25vh;
 }
