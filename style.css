@@ -2,16 +2,45 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: black;
+    
 }
 
 div {
-    border: 3px solid;
+    border: 3px solid black;
 }
 
 .first_section {
     background-color: rgb(27, 35, 50);
     color: white;
+
+}
+
+.first_section,
+a {
+    color: #c9c7c7; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    margin: 0px 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main_page {
+    margin: 0 50px;
+}
+
+.night_forest {
+    width: 50vh;
 }
 
 .night_img {
