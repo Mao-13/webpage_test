@@ -7,9 +7,9 @@
 
 }
 
-div {
+/* div {
     border: 3px solid black;
-}
+} */
 
 .first_section {
     background-color: rgb(27, 35, 50);
@@ -92,4 +92,20 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote_container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    /* margin:  100px 100px; */
+    padding: 10vh 20vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#author {
+    align-self: flex-end;
 }
