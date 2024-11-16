@@ -12,7 +12,7 @@
 } */
 
 .first_section {
-    background-color: rgb(27, 35, 50);
+    background-color: #1f2937;
     color: white;
 
 }
@@ -52,6 +52,17 @@ ul {
     width: 30%;
 }
 
+#hero_text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#hero_secondary {
+        font-size: 18px;
+        color: #e5e7eb;
+}
+
 .text_n_button button {
     padding: 5px 20px;
     color: white;
@@ -71,7 +82,10 @@ ul {
     margin-bottom: 20px;
 }
 
-h2 {
+#info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
     text-align: center;
 
     margin: 20px 0px;
@@ -135,7 +149,7 @@ h2 {
 
 footer {
     background-color: #1f2937;
-    color: gray;;
+    color: gray;
 
     text-align: center;
     padding: 5vh 10vh;
