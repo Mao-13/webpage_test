@@ -55,8 +55,8 @@ ul {
 .text_n_button button {
     padding: 5px 20px;
     color: white;
-    background-color: #3a43f2;
-    border-color: #3a43f2;
+    background-color: #3882f6;
+    border-color: #3882f6;
     
     border-radius: 8px;
 }
@@ -108,4 +108,27 @@ h2 {
 
 #author {
     align-self: flex-end;
+}
+
+.window {
+    margin: 10vh 20vh;
+    padding: 5vh 10vh;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.window button {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 20vh;
 }
