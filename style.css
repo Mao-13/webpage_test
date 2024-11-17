@@ -78,6 +78,9 @@ ul {
 }
 
 .night_img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+
     height: 25vh;
     margin-bottom: 20px;
 }
@@ -100,8 +103,7 @@ ul {
 }
 
 .picture {
-    border: 3px solid blue;
-    border-radius: 10px;
+    padding: 20px;
 
     display: flex;
     flex-direction: column;
@@ -118,6 +120,11 @@ ul {
     
     display: flex;
     flex-direction: column;
+}
+
+#text {
+    font-size: 36px;
+    color: #1f3927;
 }
 
 #author {
